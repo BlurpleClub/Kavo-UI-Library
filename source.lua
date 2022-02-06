@@ -105,8 +105,8 @@ local themeStyles = {
         TextColor = Color3.fromRGB(119, 209, 138),
         ElementColor = Color3.fromRGB(24, 24, 24)
     },
-    Synapse = {
-        SchemeColor = Color3.fromRGB(46, 48, 43),
+    Apple = {
+        SchemeColor = Color3.fromRGB(0, 255, 0),
         Background = Color3.fromRGB(13, 15, 12),
         Header = Color3.fromRGB(36, 38, 35),
         TextColor = Color3.fromRGB(152, 99, 53),
@@ -165,8 +165,8 @@ function Kavo.CreateLib(kavName, themeList)
         themeList = themeStyles.Midnight
     elseif themeList == "Sentinel" then
         themeList = themeStyles.Sentinel
-    elseif themeList == "Synapse" then
-        themeList = themeStyles.Synapse
+    elseif themeList == "Apple" then
+        themeList = themeStyles.Apple
     elseif themeList == "Serpent" then
         themeList = themeStyles.Serpent
     else
